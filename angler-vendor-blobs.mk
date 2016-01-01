@@ -17,6 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
     vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so
+
 # BIN
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -37,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/angler/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/angler/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/huawei/angler/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/huawei/angler/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
