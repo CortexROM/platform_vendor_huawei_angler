@@ -1,5 +1,7 @@
 # Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2015 ChevyCam94
+# Copyright (C) 2016 ChevyCam94
+#
+# Contribuitons from PureNexus, Benzo, DHOMD, Vanir, Screwed
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,13 +14,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# APP
-PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
-    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so
 
 # BIN
 PRODUCT_COPY_FILES += \
@@ -108,11 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/huawei/angler/proprietary/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:system/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
     vendor/huawei/angler/proprietary/etc/sap.conf:system/etc/sap.conf
-
-# FRAMEWORK
-PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/huawei/angler/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar
 
 # LIB
 PRODUCT_COPY_FILES += \
