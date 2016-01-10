@@ -15,6 +15,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# APP
+PRODUCT_COPY_FILES += \
+    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so
+
 # BIN
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
