@@ -150,4 +150,5 @@ PRODUCT_COPY_FILES += \
 
 # XBIN
 PRODUCT_COPY_FILES += \
+    vendor/huawei/angler/proprietary/xbin/dexdump:system/xbin/dexdump \
     vendor/huawei/angler/proprietary/xbin/wlutil:system/xbin/wlutil
